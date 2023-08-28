@@ -3,6 +3,7 @@
 The task is to train a neural network that takes one image as input to output several of the most similar images from the database. The neural network was trained and tested on the Oxford5k dataset. <br/>
 
 This set consists of 5062 images of 11 Oxford landmarks. For each image and landmark in the data set, one of four labels was generated: “good”, a good, clear image of the object; “ok” – more than 25% of the object is clearly visible; “bad” – there is no object; “junk” – less than 25% of the object is visible, or there is a very high level of overlap or distortion; "query" - requests. <br/>
+(dataset was taken from kaggle https://www.kaggle.com/datasets/vadimshabashov/oxford5k)
 
 All labels with their corresponding images are presented in the json file.
 
