@@ -8,7 +8,7 @@ This set consists of 5062 images of 11 Oxford landmarks. For each image and land
 All labels with their corresponding images are presented in the json file.
 
 A Siamese neural network was used to solve the IR problem. <br/> 
-Siamese networks consist of two identical neural networks, each with the same weights. Each network takes one of two input images as input. The outputs of the last layers of each network are then sent to a function that determines if the images contain the same identifiers. <br/>
+Siamese networks consist of two identical neural networks, each with the same weights. Each network takes one of two input images as input. The outputs of the last layers of each network are then sent to a function that determines if the images contain the same identifiers.  <br/>
 
 Siamese network architecture
 ![Image alt](https://github.com/Marakuia/ImageRetrieval_Oxford5k/blob/main/inf/siamese)
